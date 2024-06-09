@@ -1,0 +1,29 @@
+### create a user
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "name": "Pratt6",
+    "email": "prasanna6@technital.it"
+}
+
+### get all users
+GET http://localhost:3000/api/users
+
+### get a user
+GET http://localhost:3000/api/users/6
+
+### update a user
+PUT http://localhost:3000/api/users/7
+Content-Type: application/json
+
+{
+    "name": "Prasana",
+    "email": "prasanna12@technital.it"
+}
+
+### delete a user
+DELETE http://localhost:3000/api/users/3
+
+###
+GET https://api.themoviedb.org/3/movie/157336?api_key=7599c2b9d5af386b28988cbdfe9ed871

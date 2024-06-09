@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "typicode",
+      "email": "1typicode@mail.com"
+    },
+    {
+      "id": 2,
+      "name": "john",
+      "email": "3john@mail.com"
+    },
+    {
+      "id": 3,
+      "name": "steve",
+      "email": "2steve@mail.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server2",
+      "author": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "json-server3",
+      "author": "steve"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
