@@ -25,5 +25,49 @@ Content-Type: application/json
 ### delete a user
 DELETE http://localhost:3000/api/users/3
 
-###
-GET https://api.themoviedb.org/3/movie/157336?api_key=7599c2b9d5af386b28988cbdfe9ed871
+
+
+
+### get all products
+GET http://localhost:3000/api/products
+
+### create a product
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name": "Milk",
+    "price": 1.5
+}
+
+### create a product
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name": "Apple",
+    "price": 0.5
+}
+
+
+
+### get all events
+GET http://localhost:3000/api/events
+
+### create a product
+POST http://localhost:3000/api/events
+Content-Type: application/json
+
+{
+    "name": "Steve Birthday",
+    "content": "Party at Lotte Hotel"
+}
+
+### create a product
+POST http://localhost:3000/api/events
+Content-Type: application/json
+
+{
+    "name": "App launching",
+    "content": "Media Conference Call"
+}
